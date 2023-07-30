@@ -1,0 +1,1325 @@
+/************** A ***********/
+.alpha1 {
+	color: rgb(6, 213, 250);
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.alpha2 {
+	color: rgb(6, 213, 250);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/************** FIN A ***********/
+
+/************** B ***********/
+body {
+	background: #0d1b1f;
+	font-family: 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.banner_transactions,
+.order-form {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/transaction_1.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 1200px;
+}
+
+.banner_catalogue,
+/***image de debut catalogue***/
+.order-form {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/catalogue_9.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 200px;
+}
+
+.bouton_close {
+	/* Modal dans commande2*/
+	width: 65px;
+	height: 40px;
+	background: #000000;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 3px 3px 3px 3px;
+	border: none;
+}
+
+.btn-orangered {
+	/** début bouton orangered dans catalogue **/
+	background: #F5432D;
+	/** #ff4500 => orangered **/
+	color: #fff;
+}
+
+.btn-orangered:hover {
+	background: #ef4102;
+	color: #000;
+	/*font-size: 13px;*/
+	/*font-weight: bold;*/
+}
+
+/** fin bouton orangered dans catalogue **/
+
+
+.btn-bleu {
+	/** début bouton bleu consommables et autres dans catalogue **/
+	background: #007FA9;
+	color: #000;
+}
+
+.btn-bleu:hover {
+	background: #00a4d8;
+	/*#00a4d8*/
+	color: #000;
+	/*font-size: 13px;*/
+	/*font-weight: bold;*/
+}
+
+/*** fin bouton bleu consommables et autres dans catalogue ***/
+
+
+.btn-turkoi {
+	/******* début bouton turkoi dans catalogue ****/
+	background: #226D68;
+	color: #fff;
+}
+
+.btn-turkoi:hover {
+	background: #63cdd6;
+	/*#00a4d8*/
+	color: #000;
+	/*font-size: 13px;*/
+	/*font-weight: bold;*/
+}
+
+.btn-commande {
+	/** Le bouton gauche de la 2e section **/
+	color: #000;
+	border-color: #ff7300;
+	transition: 0.5s;
+	background: #ff7300;
+}
+
+.btn-commande:hover,
+/** Le hover du Le bouton gauche de la 2e section  **/
+.btn-commande:focus,
+.btn-commande:active {
+	color: #ffffff;
+	background-color: #ff7300a8;
+}
+
+.btn-outline-light {
+	color: #ff7300;
+	font-size: 17px;
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:focus,
+.btn-outline-light:active {
+	color: #ff7300;
+	font-size: 18px;
+	border: solid 1px #fff;
+}
+
+.btn-info {
+	background: transparent;
+	border: solid 1px transparent;
+	color: #ff7300;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active {
+	background: transparent;
+	border: solid 1px #ff7300;
+	color: #ff7300;
+	font-size: 18px;
+}
+
+.btn_text-muted {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+.btn_text-muted:hover {
+	/*text-decoration: underline #ff2300;*/
+	color: #ff7300;
+	/*#ff2300*/
+	font-size: 16px;
+	transition: 1s;
+}
+
+.banner,
+.order-form {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/image_2.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.banner_nos_formations,
+.order-form {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/nos_formations_2.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.banner_conseils_astuces,
+.order-form {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/conseils_astuces_1.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.banner_qui_sommes_nous,
+.order-form {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/qui_sommes_nous_6.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.banner .banner-desc h1 {
+	font-size: 40px;
+	/**  Taille de la police dans le banner de la premiere section**/
+	font-weight: 400;
+	color: #fff;
+
+	/** border: solid 1px #ff2300; */
+}
+
+.btn-ordernav {
+	/** Le bouton dans la barre de navigation **/
+	color: #ff7300;
+	border-color: #ff7300;
+	transition: 0.5s;
+}
+
+.btn-ordernav:hover,
+.btn-ordernav:focus,
+.btn-ordernav:active {
+	color: #fff;
+	background-color: #ff7300;
+}
+
+.btn-outline-info {
+
+	color: #00e5ff;
+	border-color: #00e5ff;
+	transition: 0.5s;
+}
+
+.btn-outline-warning:hover,
+.btn-outline-warning:focus,
+.btn-outline-warning:active {
+	color: #fff;
+	background-color: #fdf90046;
+}
+
+.btn-outline-success {
+	color: #06fa2f;
+	border-color: #06fa2f;
+	transition: 0.9s;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus,
+.btn-outline-success:active {
+	color: #fff;
+	background-color: #06fa2f46;
+}
+
+.btn-orderleft {
+	color: #ff7300;
+	border-color: #ff7300;
+	transition: 0.5s;
+}
+
+.btn-orderleft:hover,
+.btn-orderleft:focus,
+.btn-orderleft:active {
+	color: #fff;
+	background-color: #ff730046;
+}
+
+.btn-outline-warning {
+	color: #fdf900;
+	border-color: #fdf900;
+	transition: 0.5s;
+}
+
+.btn-outline-info:hover {
+	color: #fff;
+	background-color: #00e5ff46;
+}
+
+.btn_modal_x {
+	display: flex;
+	margin-left: 900px;
+	margin-top: -500px;
+	background: red;
+	border: solid 2px red;
+}
+
+.btn_modal_close {
+	display: flex;
+	margin-left: 900px;
+	margin-top: -100px;
+	background: red;
+	border: solid 2px red;
+}
+
+/************** FIN B ***********/
+
+/************** C ***********/
+.carousel-caption,
+h5,
+p {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.card-bodycor {
+	/****** Touché ******/
+	display: flex;
+	flex-direction: column;
+	background: rgb(0, 0, 0);
+	border-radius: 0px 0px 15px 15px;
+	padding: 5px;
+}
+
+.card-text {
+	background: rgb(13, 27, 31);
+	color: beige;
+	text-align: justify;
+	padding: 10px;
+}
+
+.column_left {
+	padding: 1;
+	background: transparent;
+	text-decoration: none;
+	font-size: 15px;
+	position: sticky;
+	top: 20px;
+}
+
+.consommables {
+	background: #007FA9;
+	/* #009dff // #00a4d8 // #00abe4  */
+	color: #000;
+}
+
+.consommables:hover {
+	background: #00a4d8;
+	/*font-weight: bold;*/
+	/*color: #000;*/
+}
+
+.card {
+	border: transparent;
+	background: transparent;
+}
+
+.cardo-body {
+	background: #fff;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.card-title {
+	color: #ef4102;
+
+	font-size: 22px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.card-title_catalogue {
+	color: #ef4102;
+	font-size: 14px;
+	text-align: center;
+}
+
+.card-text {
+	font-size: 12px;
+	text-decoration: none;
+	color: #f6dfcc;
+}
+
+.card-text_vente {
+	font-size: 13px;
+	text-decoration: none;
+	color: #85e4f8;
+}
+
+.cardo-body-imp {
+	background: #fff;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.card-title-imp {
+	color: #000;
+	font-size: 22px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.card-text-imp {
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+}
+
+.card-text-imp-prix {
+	font-size: 50px;
+	font-weight: bolder;
+	color: rgb(217, 2, 2);
+}
+
+/*****  Début orange  *****/
+.card-texto {
+	text-decoration: none;
+	justify-content: end;
+	text-align: end;
+	color: #ff7300;
+}
+
+.card-img-top_orange {
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, #ff4500, rgba(0, 0, 0, 0)) 0 100%;
+}
+
+
+.cardo-body_orange {
+	background: black;
+	border-radius: 0 0 0px 0px;
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to top, #ff4500, #0000) 0 100%;
+}
+
+/*****  fin orange  *****/
+
+/*****  Début bleu  *****/
+.card-texto {
+	text-decoration: none;
+	justify-content: end;
+	text-align: end;
+	color: #00a4d8;
+}
+
+.card-img-top_bleu {
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, #00a4d8, rgba(0, 0, 0, 0)) 0 100%;
+}
+
+.cardo-body_bleu {
+	background: rgb(13, 27, 31);
+	border-radius: 0 0 0px 0px;
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to top, #00a4d8, #0000) 0 100%;
+}
+
+/*****  fin bleu  *****/
+
+/*****  Début vert  *****/
+.card-texto {
+	text-decoration: none;
+	justify-content: end;
+	text-align: end;
+	color: #ff7300;
+}
+
+.card-img-top_vert {
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, #63cdd6, rgba(0, 0, 0, 0)) 0 100%;
+}
+
+.cardo-body_vert {
+	background: rgb(13, 27, 31);
+	border-radius: 0 0 0px 0px;
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to top, #63cdd6, #0000) 0 100%;
+}
+
+/*****  fin vert  *****/
+
+/************** FIN C ***********/
+
+
+
+
+/************** D ***********/
+/************** FIN D ***********/
+
+
+
+
+/************** E ***********/
+/************** FIN E ***********/
+
+
+
+/************** F ***********/
+.fiche_technique_title {
+	margin-top: 5px;
+}
+
+.fs-menu {
+	/**  DEBUT MENU quant on passe en mode tablette ou téléphone ***/
+	margin: 0;
+	padding: 0;
+	color: #06fa2f;
+	/** 06fa2f **/
+	font-size: 15px;
+	justify-content: center;
+	align-items: center;
+}
+
+.fs-menu:hover {
+	margin: 0;
+	padding: 0;
+	color: #00e5ff;
+	/** #ff7300 ** // *** #fa4f06 **/
+	/** #fa4 **/
+	font-size: 15px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/***  FIN MENU quant on passe en mode tablette ou téléphone ***/
+
+.fontone {
+	font-family: 'Arial', 'Helvetica', 'sans-serif';
+	color: rgb(4, 245, 36);
+}
+
+.fontow {
+	font-family: 'Arial', 'Helvetica', 'sans-serif';
+	color: rgb(6, 213, 250);
+}
+
+.fontbeige {
+	color: beige;
+}
+
+.fontfoothead {
+	font-family: 'Arial', 'Helvetica', 'sans-serif';
+	color: #ff7300;
+	font-weight: bold;
+}
+
+.fontfoot {
+	font-family: 'Arial', 'Helvetica', 'sans-serif';
+	color: gainsboro;
+}
+
+.fontfoot:hover {
+	font-family: 'Arial', 'Helvetica', 'sans-serif';
+	color: rgb(255, 172, 47);
+}
+
+.fontcopy {
+	color: rgb(156, 156, 156);
+}
+
+/************** FIN F ***********/
+
+
+/************** G ***********/
+/************** FIN G ***********/
+
+
+/************** H ***********/
+/************** FIN H ***********/
+
+
+/************** I ***********/
+.imprimante {
+	background: #f5432d;
+	color: #000;
+}
+
+.imprimante:hover {
+	background: #fd5039;
+	/*font-weight: bold;*/
+	color: #000;
+}
+
+.imgage_logo_7 {
+	padding-top: 0px;
+	padding-left: 0px;
+	width: 100px;
+	height: 36px;
+
+}
+
+/************** FIN I ***********/
+
+
+
+/************** J ***********/
+/************** FIN J ***********/
+
+
+
+/************** K ***********/
+/************** FIN K ***********/
+
+
+
+/************** L ***********/
+/************** FIN L ***********/
+
+
+
+/************** M ***********/
+
+#myModal_1 {
+	background: #000 url('../img/en_vente/portable_neuf/PORTABLE_NEUF_001.jpg') center center fixed no-repeat;
+	background-size: 50%;
+}
+
+#myModal_2 {
+	background: #000 url('../img/en_vente/portable_neuf/PORTABLE_NEUF_001.jpg') center center fixed no-repeat;
+	background-size: 50%;
+}
+
+#myModal_3 {
+	/*border: solid 10px #06fa2f;*/
+	background: #000 url('../img/en_vente/portable_neuf/PORTABLE_NEUF_001.jpg') center center fixed no-repeat;
+	background-size: 50%;
+}
+
+#myModal_4 {
+	/*border: solid 10px #06fa2f;*/
+	background: #000 url('../img/en_vente/portable_neuf/PORTABLE_NEUF_001.jpg') center center fixed no-repeat;
+	background-size: 50%;
+}
+
+
+/************** FIN M ***********/
+
+
+/************** N ***********/
+.navbar {
+	height: 70px;
+	/****  La hauteur de la NavBar  ****/
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.navbar li {
+	height: auto;
+	width: 185px;
+	float: left;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: transparent;
+}
+
+.navbar a {
+	padding: 10px;
+	font-size: 16px;
+}
+
+.navbar li:hover,
+a:hover {
+	background-color: transparent;
+}
+
+.navbar li ul {
+	display: none;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar li:hover ul {
+	display: block;
+}
+
+.navbar li ul li {
+	background-color: #ffffff;
+	border-radius: 30px;
+}
+
+.navbar li ul li a:hover {
+	background-color: #a3a1a1;
+	/*color: #06fa2f;*/
+}
+
+.navbar-nav {
+	/*** La Nav qt on passe à un écran plus petit ***/
+	background-color: #000000e0;
+}
+
+.nav-link_one {
+	color: #000;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.nav-link_one:hover {
+	color: #000;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/************** FIN N ***********/
+
+
+/************** O ***********/
+.ordinateur_portable_neuf {
+	background: #f5432d;
+	color: #000;
+}
+
+.ordinateur_portable_neuf:hover {
+	background: #fd5039;
+
+}
+
+.ordinateur_de_bureau_neuf {
+	background: #f5432d;
+	color: #000;
+}
+
+.ordinateur_de_bureau_neuf:hover {
+	background: #fd5039;
+	/*font-weight: bold;*/
+	color: #000;
+}
+
+.order-form {
+	/** ici c pr juste forcer le order-form  d'une hauteur de 500px aulieu de 800 puis qu'il est affilié au banner**/
+	height: 500px;
+
+	/**border: solid 1px #ff2300;**/
+}
+
+/************** FIN O ***********/
+
+
+/************** P ***********/
+.partie_gauche {
+	margin: 0;
+	padding: 0;
+}
+
+.petites_images_gauche_lensemble_commande {
+	margin: 0px;
+	padding: 0px;
+}
+
+.petites_images_gauche_commande {
+	margin-bottom: 30px;
+	padding: 0px;
+}
+
+.produit {
+	color: #06fa2f;
+
+}
+
+/************** FIN P ***********/
+
+
+/************** Q ***********/
+/************** FIN Q ***********/
+
+
+/************** R ***********/
+.ri-footer {
+	background: #000;
+	/*position: sticky;*/
+	/*bottom: 0px;*/
+}
+
+.ri-navbar {
+	background-color: #000000e0;
+	font-family: 'Arial', 'Helvetica', 'sans-serif';
+	box-shadow: 1px 1px 3px #ff220046;
+	z-index: 99;
+}
+
+.ri-navbar .nav-link {
+	border-bottom: 1px solid transparent;
+	/** #009bd646 bleu fade **/
+	transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.ri-navbar .nav-link:hover {
+	padding-bottom: 12px;
+	border-bottom-color: #ff7300;
+	/*#ff2300*/
+}
+
+.ri-menu {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/image_5.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 1200px;
+}
+
+.ri-menu_nos_formations {
+	/*****Ordinateur Portable*****/
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/catalogue_10.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 1200px;
+}
+
+.ri-menu_nos_formations {
+	/*****Ordinateur Portable*****/
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/catalogue_10.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 1200px;
+}
+
+.reconditionnes {
+	background: #226D68;
+	color: #000;
+}
+
+.reconditionnes:hover {
+	background: #63cdd6;
+	color: #000;
+}
+
+.ri-menu_catalogue_consommables_passez_une_commande {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/caddie_3.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 550px;
+}
+
+.ri_modal_close {
+	display: flex;
+	justify-content: center;
+	/*background: #f94d0362;*/
+	border-radius: 3px 3px 3px 3px;
+}
+
+/************** FIN R ***********/
+
+
+
+/************** S ***********/
+/************** FIN S ***********/
+
+
+
+/************** T ***********/
+.textemulticolore {
+	background-image: linear-gradient(to left,
+			violet,
+			indigo,
+			blue,
+			green,
+			yellow,
+			orange,
+			red);
+	-webkit-background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-weight: bold;
+	font-size: 40px;
+	text-shadow: black;
+	/*text-shadow:  1px 1px 2px /*red*/
+	/*, 0 0 5em rgb(3, 205, 250), 0 0 0.2em rgb(3, 205, 250);*/
+	margin: 0;
+	-webkit-text-stroke: 1px black;
+}
+
+.text-uppercase {
+	justify-content: center;
+}
+
+/************** FIN T ***********/
+
+
+
+/************** U ***********/
+/************** FIN U ***********/
+
+
+/************** V ***********/
+.vertical-menu_zero {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.vertical-menu_zero_bis {
+	position: sticky;
+	top: 80px;
+}
+
+.vertical-menu_one {
+	width: auto;
+	height: auto;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: beteewn;
+	margin-left: 0px;
+	margin-top: 13px;
+}
+
+.vertical-menu_one a.active {
+	background-color: #F5432D;
+	color: white;
+	font-size: 17px;
+	border-radius: 05px 05px 0px 0px;
+}
+
+.vertical-menu_one a.active:hover {
+	background-color: #ef4102;
+	color: #000;
+}
+
+.vertical-menu_one a {
+	background-color: rgb(252, 187, 159);
+	color: black;
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	font-size: 12px;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.vertical-menu_one a:hover {
+	background-color: rgb(0, 0, 0);
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+.vertical-menu_one a.fin {
+	border-radius: 0px 0px 2px 2px;
+}
+
+.vertical-menu_two {
+	width: auto;
+	height: auto;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: beteewn;
+	margin-left: 0px;
+	margin-top: 13px;
+}
+
+.vertical-menu_two a.active {
+	background-color: #007FA9;
+	color: white;
+	font-size: 17px;
+	border-radius: 05px 05px 0px 0px;
+}
+
+.vertical-menu_two a.active:hover {
+	background-color: #00abe4;
+	color: #000;
+	font-size: 18px;
+}
+
+.vertical-menu_two a {
+	background-color: rgb(156, 210, 243);
+	color: black;
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	font-size: 12px;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.vertical-menu_two a:hover {
+	background-color: rgb(0, 0, 0);
+	color: #fff;
+	font-weight: bold;
+}
+
+.vertical-menu_two a.fin {
+	border-radius: 0px 0px 5px 5px;
+}
+
+.vertical-menu_three {
+	width: auto;
+	height: auto;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: beteewn;
+	margin-left: 0px;
+	margin-top: 13px;
+}
+
+.vertical-menu_three a.active {
+	background-color: #226D68;
+	color: #fff;
+	font-size: 17px;
+	border-radius: 05px 05px 0px 0px;
+}
+
+.vertical-menu_three a.active:hover {
+	background-color: #63cdd6;
+	color: #000000;
+	font-size: 18px;
+}
+
+.vertical-menu_three a {
+	background-color: rgb(173, 217, 245);
+	color: black;
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	font-size: 12px;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.vertical-menu_three a:hover {
+	background-color: rgb(0, 0, 0);
+	color: #fff;
+	font-weight: bold;
+}
+
+.vertical-menu_three a.fin {
+	border-radius: 0px 0px 5px 5px;
+}
+
+.vertical-menu_fore {
+	width: auto;
+	height: auto;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: beteewn;
+	margin-left: 0px;
+	margin-top: 13px;
+}
+
+.vertical-menu_fore a.active {
+	background-color: #343535;
+	color: #fff;
+	font-size: 17px;
+	border-radius: 05px 05px 0px 0px;
+}
+
+.vertical-menu_fore a.active:hover {
+	background-color: #444646;
+	color: #fff;
+	font-size: 18px;
+}
+
+.vertical-menu_fore a {
+	background-color: #1e1f1f;
+	color: rgb(255, 255, 255);
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	font-size: 12px;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.vertical-menu_fore a:hover {
+	background-color: rgb(0, 0, 0);
+	color: #fff;
+	font-weight: bold;
+}
+
+.vertical-menu_fore a.fin {
+	border-radius: 0px 0px 5px 5px;
+}
+
+/************** FIN V ***********/
+
+
+
+/************** W ***********/
+/************** FIN W ***********/
+
+
+
+/************** X ***********/
+/************** FIN X ***********/
+
+
+
+/************** Y ***********/
+/************** FIN Y ***********/
+
+
+
+/************** Z ***********/
+/************** FIN Z ***********/
+
+
+
+
+/*************************************** DEBUT RENDONS RESPONSSIVE ******************************************/
+@media screen and (min-width: 200px) and (max-width: 300px) {
+	.merci_valid_com {
+		font-size: 16px;
+	}
+
+
+	.vertical-menu_zero_bis a .active {
+
+		text-align: center;
+		font-size: 7px;
+	}
+
+
+	.vertical-menu_zero_bis a {
+		text-align: center;
+		font-size: 7px;
+		padding-left: 5px;
+		padding-right: 0px;
+	}
+
+	.autre_preciser {
+		font-size: 10px;
+	}
+
+	.ok_font {
+		font-size: 12px;
+	}
+
+	.valider_btn {
+		font-size: 12px;
+		padding: 6px;
+	}
+
+	.qte {
+		font-size: 12px;
+	}
+
+	.nom {
+		font-size: 12px;
+	}
+
+	.tel {
+		font-size: 12px;
+	}
+
+	.choix_commune {
+		font-size: 11px;
+	}
+
+	/**** DEBUT DANS CATALOGUE ***/
+
+	.cardo-body {
+		font-size: 13px;
+	}
+
+	.card-text {
+		font-size: 10px;
+	}
+
+	/**** FIN DANS CATALOGUE ***/
+}
+
+@media screen and (min-width: 301px) and (max-width: 576px) {
+	.merci_valid_com {
+		font-size: 16px;
+	}
+
+	.vertical-menu_zero_bis a {
+		text-align: center;
+		padding-left: 0;
+		font-size: 10px;
+	}
+
+	.autre_preciser {
+		font-size: 10px;
+	}
+
+	.ok_font {
+		font-size: 12px;
+	}
+
+	.valider_btn {
+		font-size: 12px;
+		padding: 6px;
+	}
+
+	.qte {
+		font-size: 12px;
+	}
+
+	.nom {
+		font-size: 12px;
+	}
+
+	.tel {
+		font-size: 12px;
+	}
+
+	.choix_commune {
+		font-size: 11px;
+	}
+
+	/**** DEBUT DANS CATALOGUE ***/
+
+	.cardo-body {
+		font-size: 13px;
+	}
+
+	.card-text {
+		font-size: 10px;
+	}
+
+	/**** FIN DANS CATALOGUE ***/
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+	.merci_valid_com {
+		font-size: 16px;
+	}
+
+	.autre_preciser {
+		font-size: 10px;
+	}
+
+	.ok_font {
+		font-size: 12px;
+	}
+
+	.valider_btn {
+		font-size: 12px;
+		padding: 6px;
+	}
+
+	.qte {
+		font-size: 12px;
+	}
+
+	.nom {
+		font-size: 12px;
+	}
+
+	.tel {
+		font-size: 12px;
+	}
+
+	.choix_commune {
+		font-size: 11px;
+	}
+
+	/**** DEBUT DANS CATALOGUE ***/
+
+	.cardo-body {
+		font-size: 13px;
+	}
+
+	.card-text {
+		font-size: 10px;
+	}
+
+	/**** FIN DANS CATALOGUE ***/
+}
+
+@media screen and (min-width: 993px) and (max-width: 1300px) {
+	.merci_valid_com {
+		font-size: 16px;
+	}
+
+	.autre_preciser {
+		font-size: 10px;
+	}
+
+	.ok_font {
+		font-size: 12px;
+	}
+
+	.valider_btn {
+		font-size: 12px;
+		padding: 6px;
+	}
+
+	.qte {
+		font-size: 12px;
+	}
+
+	.nom {
+		font-size: 12px;
+	}
+
+	.tel {
+		font-size: 12px;
+	}
+
+	.choix_commune {
+		font-size: 11px;
+	}
+
+	/**** DEBUT DANS CATALOGUE ***/
+
+	.cardo-body {
+		font-size: 13px;
+	}
+
+	.card-text {
+		font-size: 10px;
+	}
+
+	/**** FIN DANS CATALOGUE ***/
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1400px) {
+	.merci_valid_com {
+		font-size: 16px;
+	}
+
+	.autre_preciser {
+		font-size: 10px;
+	}
+
+	.ok_font {
+		font-size: 12px;
+	}
+
+	.valider_btn {
+		font-size: 12px;
+		padding: 6px;
+	}
+
+	.qte {
+		font-size: 12px;
+	}
+
+	.nom {
+		font-size: 12px;
+	}
+
+	.tel {
+		font-size: 12px;
+	}
+
+	.choix_commune {
+		font-size: 11px;
+	}
+
+	/**** DEBUT DANS CATALOGUE ***/
+
+	.cardo-body {
+		font-size: 13px;
+	}
+
+	.card-text {
+		font-size: 10px;
+	}
+
+	/**** FIN DANS CATALOGUE ***/
+}

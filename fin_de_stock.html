@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Font awesome cdn CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Ravmel fin de stock 😞</title>
+</head>
+
+<body>
+    <nav class="ri-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100">
+        <div class="container-fluid">
+            <a class="navbar-brand text-uppercase mx-2 py-2 fw-bolder" href="qui_sommes_nous.html">
+                <p class="text-light">Ravmel Informatique</p>
+            </a>
+            <button class="fs-menu navbar-toggler me-5 p-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="fs-menu navbar-toggler-icon"></span>
+                <p class="fs-menu pt-1">Menu</p>
+            </button>
+
+            <div class="collapse navbar-collapse ps-0" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="accueil.html">Accueil</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="nav-link text-light">Informatique</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="le_catalogue.html">Notre Catalogue</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="nos_formations.html">Nos formations</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="conseils_et_astuces.html">Conseils et Astuces</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item pe-0">
+                        <a class="nav-link text-light" href="transactions.html">Transactions</a>
+                    </li>
+
+                    <li class="nav-item pe-0">
+                        <a class="nav-link text-light" href="qui_sommes_nous.html">Qui sommes nous ?</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="d-flex justify-content-center align-items-center pt-5">
+        <div class="container my-3 py-3 text-light">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-cente">
+                    <a href="le_catalogue.html">
+                        <button class="btn btn-orderleft btn-lg me-3">
+                            Voir notre catalogue
+                        </button>
+                    </a>
+                </div>
+
+                <div class="col-md-6 lh-lg">
+                    <h1 class="text-capitalize fs-3 d-flex justify-content-center align-items-center text-center">
+
+                        <a class="text-decoration-none text-light pt-2 me-0" href="#commande.html">
+                            STOCK EPUISE 😞&nbsp;<i class="fas fa-dolly-flatbed"></i>
+                        </a>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ri-menu_catalogue_consommables_passez_une_commande">
+        <div class="container">
+            <form>
+                <div class="row">
+
+                    <!------- PLACE DE L'IMAGE PRINCIPALE --------->
+
+                    <div class="col-md-6 col-sm ms-0">
+                        <a href="#"><img src="assets/img/en_vente/epuise_1.jpg" class="card-img-top rounded-0"
+                                alt="bureautique" /></a>
+
+                        <div class="cardo-body mt-1">
+                            <h5 class="card-title">Stock épuisé</h5>
+                            <p class="card-text">
+                                Ce produit sera bientôt disponible &nbsp; &nbsp; Prix: 0 F
+                            </p>
+                        </div>
+                    </div>
+
+                     <!------- FIN PLACE DE L'IMAGE PRINCIPALE --------->
+
+                    <div class="col-md-6 col-sm mt-0 bg-light rounded-3">
+                        <h2 class="text-center text-secondary mt-3 mb-3">
+                            <p class="fw-bolder">Ce produit sera bientôt disponible &#128578;</p>
+                            <!--Code Emoticone :==> &#128578;-->
+                        </h2>
+
+                        <div class="input-group mb-3 mt-4">
+                            <span class="input-group-text"><i class="fa fa-location-arrow"></i></span>
+                            <input type="number" class="form-control" placeholder="Quantité" step="1" min="1" max="1000"
+                                required disabled />
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text validity"><i class="fas fa-user-tie"></i></span>
+                            <input type="text" class="form-control" placeholder="Votre nom complet" step="1" min="0"
+                                max="1000" required disabled />
+                            <!-- name="name" required size="45" pattern="[a-z]{3,30}" id="uname"-->
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fas fa-mobile-alt fs-5"></i></span>
+                            <input id="telNo" name="telNo" type="tel" minlength="10" maxlength="10" class="form-control"
+                                placeholder="Contact, Ex: 0707966957" required disabled />
+                        </div>
+
+                        <!--------------------- FORMULAIRE LISTE A REVOIR ------------------------->
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01"><i
+                                    class="fas fa-map-marker-alt"></i></label>
+
+                            <select class="form-select" id="inputGroupSelect01" required disabled>
+                                <option selected disabled value="" class="text-muted">
+                                    Choisir une commune pour la livraison
+                                </option>
+                                <option value="1">ABOBO</option>
+                                <option value="2">ADJAME</option>
+                                <option value="3">ATECOUBE</option>
+                                <option value="5">COCODY</option>
+                                <option value="4">KOUMASSI</option>
+                                <option value="8">MARCORY</option>
+                                <option value="9">PLATEAU</option>
+                                <option value="7">PORT-BOUET</option>
+                                <option value="6">TREICHVILLE</option>
+                                <option value="10">YOPOUGON</option>
+                                <option value="11">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Autre, préciser</span>
+                            <input type="text" class="form-control" placeholder="Exemple: Bassam, Mokey Ville"
+                                disabled />
+                        </div>
+
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2"
+                                            required disabled>
+                                        <label class="form-check-label" for="invalidCheck2">
+                                            Ok pas de soucis, je valide ma commande
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="col-2">
+                                    <button class="btn btn-primary" disabled type="submit">Epuisé</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="container mt-1 p-0">
+            <div class="row">
+                <!--<div class="col-2"></div>-->
+                <div class="col-12 ms-2 ps-2">
+                    <a href="le_catalogue.html">
+                        <button class="retour_au_catalogue btn btn-commande btn-sm col-12  fw-bolder fs-5">
+                            Retour au catalogue
+                        </button>
+                    </a>
+                </div>
+                <!--<div class="col-1"></div>-->
+            </div>
+        </div>
+    </section>
+
+    <section class="ri-footer py-3 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm mb-4">
+                    <h6 class="fontfoothead fs-5">Les Points relais</h6>
+					<nav class="nav flex-column">
+						<a class="nav-link py-1 fontfoot fs-6" href="#Africa Microsoft">Africa Digit Corporation</a>
+						<a class="nav-link py-1 fontfoot fs-6" href="#Hiperdist">NAMS Abidjan</a>
+						<a class="nav-link py-1 fontfoot fs-6" href="#Emploi Jeune">C.A.M.A</a>
+						<a class="nav-link py-1 fontfoot fs-6" href="#FDFP">All In One</a>
+					</nav>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm mb-4">
+                    <h6 class="fontfoothead fs-5">Nos Partenaires</h6>
+                    <nav class="nav flex-column">
+                        <a class="nav-link py-1 fontfoot fs-6" href="#Africa Microsoft">Africa Microsoft</a>
+                        <a class="nav-link py-1 fontfoot fs-6" href="#Hiperdist">Hiperdist Africa</a>
+                        <a class="nav-link py-1 fontfoot fs-6" href="#Emploi Jeune">Emploi Jeune</a>
+                        <a class="nav-link py-1 fontfoot fs-6" href="#FDFP">FDFP</a>
+                    </nav>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm mb-4">
+                    <h6 class="fontfoothead fs-5">Nous suivre sur</h6>
+                    <nav class="nav flex-column">
+                        <a class="nav-link py-1 fontfoot fs-6" href="#WhatsApp">WhatsApp &nbsp;<i
+                                class="fab fa-whatsapp"></i></a>
+                        <a class="nav-link py-1 fontfoot fs-6" href="#facebook">facebook &nbsp;<i
+                                class="fab fa-facebook"></i></a>
+                        <a class="nav-link py-1 fontfoot fs-6" href="#Instagram">Youtube &nbsp;<i
+                                class="fab fa-youtube"></i></a>
+                        <a class="nav-link py-1 fontfoot fs-6" href="#twitter">twitter &nbsp;<i
+                                class="fab fa-twitter"></i></a>
+                    </nav>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm mb-4">
+                    <h6 class="fontfoothead fs-5">Nos Offres</h6>
+                    <nav class="nav flex-column">
+                        <a class="nav-link py-1 fontfoot fs-6" href="#le_catalogue.html">Ordinateurs Portables
+                            réconditionés</a>
+                        <a class="nav-link py-1 fontfoot fs-6" href="#le_catalogue.html">Ordinateur bureau
+                            réconditioné</a>
+                        <a class="nav-link py-1 fontfoot fs-6" href="#le_catalogue.html">Consommables</a>
+                        <a class="nav-link py-1 fontfoot fs-6" href="#le_catalogue.html">Autre</a>
+                    </nav>
+                </div>
+
+                <div class="col-12 text-center py-4 fontcopy">
+                    &copy; Ravmel Informatique 2022 Copyright
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

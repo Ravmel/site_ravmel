@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+		<!-- Font awesome cdn CSS-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+		<!-- Bootstrap core CSS -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="assets/css/styles.css"/>
+		<title>Ravmel conseils et astuces</title>
+	</head>
+
+	<body>
+		<nav class="ri-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100">
+			<div class="container-fluid">
+				<a class="navbar-brand text-uppercase mx-2 py-2 fw-bolder" href="qui_sommes_nous.html"><p class="text-light">Ravmel Informatique</p></a>
+				<button
+					class="fs-menu navbar-toggler me-5 p-0"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="fs-menu navbar-toggler-icon"></span>
+					<p class="fs-menu pt-1">Menu</p>
+				</button>
+
+				<div class="collapse navbar-collapse ps-0" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link text-light" href="accueil.html">Accueil</a>
+						</li>
+
+						<li class="dropdown">
+							<a class="nav-link text-light">Informatique</a>
+							<ul class="dropdown-menu">
+							  <li><a class="dropdown-item" href="le_catalogue.html">Notre Catalogue</a></li>
+							  <li><a class="dropdown-item" href="nos_formations.html">Nos formations</a></li>
+							  <li><a class="dropdown-item" href="conseils_et_astuces.html">Conseils et Astuces</a></li>
+							</ul>
+						</li>
+
+						<li class="nav-item pe-0">
+							<a class="nav-link text-light" href="qui_sommes_nous.html">Qui sommes nous ?</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section class="banner_conseils_astuces d-flex justify-content-center align-items-center pt-5">
+			<div class="container my-5 py-5">
+				<div class="row">
+					<div class="col-md-7"></div>
+					<div class="col-md-5 banner-desc lh-lg">
+						<h1 class="text-capitalize px-0 mx-0 fs-3 d-flex justify-content-center align-items-center text-center">
+							<p>
+								<a class=" text-decoration-none text-light" href="#">CONSEILS ET ASTUCES</a>
+							</p>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+
+		<section class="carousel text-center py-3 d-none d-non d-sm-block d-md-none d-lg-block"><!--Caché uniquement sur : xs // sm // md -->
+			<div class="container">
+				<div class="row ">
+				
+					<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+						<div class="carousel-indicators">
+
+							<button type="button" 
+									data-bs-target="#carouselExampleCaptions" 
+									data-bs-slide-to="0" 
+									class="active" 
+									aria-current="true" 
+									aria-label="Slide 1">
+							</button>
+
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+						</div>
+
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="assets/img/Carousel/ordi_buro_petit_002.png" class="d-block w-100" alt="ordinateur de bureau" />
+
+								<div class="carousel-caption d-none d-md-block">
+									<h5 class="alpha1">
+										Ordinateur de bureau
+									</h5>
+
+									<p class="text-light d-md-none d-lg-block">
+										Un ordinateur de bureau est un ordinateur personnel destiné à être utilisé sur un bureau ou tout autre endroit fixe à cause de ses dimensions, de sa masse et de son alimentation électrique.
+									</p>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<img src="assets/img/Carousel/ordi_portable_petit_001.png" class="d-block w-100" alt="ordinateur portable"/>
+
+								<div class="carousel-caption d-none d-md-block">
+									<h5 class="alpha1">
+										Ordinateur portable
+									</h5>
+
+									<p class="text-light d-md-none d-lg-block">
+										Un ordinateur portable et un ordinateur tout-en-un que l'on peut déplacer en raison de sa taille compacte et de la présence d'une batterie qui lui permet de fonctionner un moment sans avoir besoin de source d'alimentation.
+									</p>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<img src="assets/img/Carousel/consommable_petit_001.png" class="d-block w-100" alt="consommable informatique" />
+
+								<div class="carousel-caption d-none d-md-block">
+									<h5 class="alpha1">
+										Consommable informatique
+									</h5>
+
+									<p class="text-light d-md-none d-lg-block">
+										Les consommables informatiques, sont des accessoires jetable ou réutilisable d'un système informatique, tel que le papier, la clé USB ou la cartouche d'imprimante.
+									</p>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<img src="assets/img/Carousel/conseils_petit_002.png" class="d-block w-100" alt="conseils" />
+
+								<div class="container mt-5">
+									
+										<div class="carousel-caption col d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"><!--Caché uniquement sur : xs // sm // md -->
+
+											<h5 class="alpha1">
+												Conseil pratique avant l'achat un matériel informatique
+											</h5>
+
+											<div class="row col d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+												<p class="text-light">
+													<div class="col">
+														<span class="alpha2">1.&nbsp; </span> Il est très important de bien choisir son type d'ordinateur en fonction de ses besoins.
+													</div>
+
+													<div class="col">
+														<span>
+														
+															<span class="alpha2">2.&nbsp; </span> Avant l'achat d'une machine, ne vous focalisez pas sur une marque bien precise. Faite plutôt attention à ses différentes capacités (Processeur - Memoire - Disque dur).
+														</span>
+													</div>
+
+													<div class="col">
+														<span class="alpha2">3.&nbsp; </span> Etre attiré par un produit en tête de vente ou à prix réduit n'est pas toujour un bon choix.
+
+													</div>
+
+													<div class="col">
+														<span>
+															<span class="alpha2">4.&nbsp; </span> Si vous cherchez un bon appareil à petit prix, vous pouvez acheter des produits reconditionnés à l'usine surtout, sur des sites de vente en ligne comme celui de Ravmel Informatique.
+														</span>
+													</div>
+												</p>
+											</div>
+										</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="text-light">
+				<p>
+					Un produit reconditionné désigne un bien déjà utilisé qui a été remis à neuf ou réparé. Le terme s'applique particulièrement aux équipements informatiques tels que les smartphones ou les ordinateurs
+				</p>
+			<p>
+				Définition Occasion et Reconditionné
+Lorsque l’on se décide à acheter un nouvel ordinateur portable, le matériel neuf n’est pas toujours une fatalité. En effet, d’autres options s’offrent à vous : l’achat d’un ordinateur portable d’occasion, ou d’un ordinateur reconditionné.
+
+Un PC d’occasion :
+Dès lors qu’un ordinateur a été utilisé, on considère qu’il n’est plus « neuf », et alors par extension, qu’il est d’occasion. Ces ordinateurs peuvent proviennent de la rénovation du parc informatique d’une entreprise.
+
+Un PC reconditionné :
+Un PC reconditionné est un PC d'occasion qui a été remis en état. Ces ordinateurs sont généralement des modèles d’exposition de magasins, des reprises de parc informatique de société etc.
+
+Il peut aussi arriver qu'un PC soit reconditionné suite à un dysfonctionnement.  Le PC est alors renvoyé au constructeur qui détecte l’anomalie et traite le défaut. Les tests sont effectués pour s'assurer du bon fonctionnement de l'ordinateur. Après avoir été remis en état, le PC est reconditionné dans un nouvel emballage neutre.
+
+Tous nos PC sont scrupuleusement testés à plusieurs reprises: ils sont passés sur banc de test, les connectiques, les prises, le clavier, l'écran.. l'ensemble des éléments sont testés de manière approfondit. Par ailleurs, tous nos produits sont garantis. L'ensemble des évaluations que vous trouverez à notre sujet atteste de notre sérieux et de notre fiabilité, et ce depuis plus de 10 ans.
+
+Vous êtes enfin prêt à sauter le pas pour acheter un ordinateur occasion ou reconditionné ? N’attendez plus ! Un coup de cœur vous attend sur Reconditionner.fr. Que vous soyez à la recherche d’un pc portable ou d’un ordinateur de bureau, vous n’aurez pas de mal à le trouver sur notre site.
+			</p>
+
+			<p>
+			Acheter un ordinateur adapté à ses besoins
+Le choix de votre ordinateur est avant tout relatif à l'utilisation que vous en ferez et à votre budget. La réponse, sous forme de règle d'or, tient en une ligne : « plus votre budget sera élevé, plus votre choix sera diversifié et plus vous aurez l’occasion de goûter à une machine puissante et polyvalente ». Mais même un budget serré permet de créer une belle configuration.
+</p>
+
+<p>
+Dans notre guide, nous vous donnerons des pistes pour ne plus avoir de doute. À l’image de l’utilisation du configurateur de PC, plusieurs choix de composants vous seront demandés. En fonction de votre budget, nous préconiserons des solutions basées sur le meilleur rapport qualité-prix et performance.
+</p>
+
+<p>
+“PC Bureautique”
+Les pc bureautiques, utiles pour surfer sur internet, utiliser des tableurs ou encore éditer des documents, sont économiques autant pour leur consommation électrique (variant selon les configurations personnalisées) que pour leur tarif. Et pour cause, la fourchette de prix des PC bureautiques s’étale de 300 à 500€ (hors système d'exploitation).
+
+Le choix d'un processeur tel que le Intel Pentium ou l’AMD A6 avec ses 2 cœurs ne ralentira pas vos tâches quotidiennes. La partie vidéo, intégrée à ce dernier, est également suffisante pour le visionnage de vidéos HD. Nous vous proposons un ordinateur de bureautique monté et testé, il ne restera plus que Windows à installer.
+</p>
+
+<p>
+“PC Multimédia”
+Contrairement aux ordinateurs de bureautique, la gamme des pc Multimédia est utile pour des usages de logiciels un peu plus gourmands. Ainsi, le processeur conseillé est généralement à chercher dans la gamme des Core i3 voire des Core i5 dans certains cas. L’avantage d’un processeur plus performant permet l’accessibilité à un usage plus large. Parmi ces fonctions, nous pouvons citer la lecture des films en Haute Définition, ou encore le montage vidéo(SD pour les caméscopes en mini-DV ou entrée de gamme, et HD ou UHD pour la nouvelle génération de caméscope).
+
+Parmi nos configurations multimédia, l'association d'un processeur solide et d'une petite carte graphique dédié dédiée permet de jouer à des petits jeux de divertissement. Concernant la partie stockage, elle comprend un disque système flash(SSD) de 120Go afin de rendre votre configuration aussi rapide qu’efficace, et un disque de stockage pour vos archives (1 To ou 2 To par exemple).
+</p>
+
+<p>
+“PC Linux”
+Les ordinateurs de bureau Linux sont créés afin d’accueillir le système d’exploitation libre Linux. Polyvalents, les PC Linux possèdent une large logithèque utile dans la bureautique et le multimédia. En achetant un PC Linux, vous êtes assuré de faire des économies(pas de licence Windows à payer) et de pouvoir y installer la licence libre (Ubuntu, Mint...). En effet, de nombreux adeptes de l’Open Source doivent souvent faire face à des problèmes et des incompatibilités matérielles ne leur permettant pas d’être indépendants dans leur choix du matériel informatique.
+</p>
+
+<p>
+“Mini PC”
+Design, silencieux et compacts, les mini PC se feront discrets dans votre salon ou votre bureau. Les mini PC offrent les capacités et les avantages d’un véritable ordinateur, sans son principal inconvénient : l'encombrement. Vous pourrez profiter de vos films en HD ou travailler sur vos documents.
+
+Les mini PC permettent de raccorder jusqu’à deux écrans et plusieurs périphériques grâce à une connectique pertinente pour leur espace réduit. Vous pourrez même dans certains cas accrocher ce mini ordinateur derrière votre écran afin de maximiser le rapport performances/dimensions.
+</p>
+
+<p>
+“PC CAO/DAO”
+Destinés aux professionnels de la conception assistée par ordinateur tels que les architectes ou les graphistes, les ordinateurs de type CAO/DAO sont conçus pour permettre de faire du dessin, de la publication, ou bien de la conception informatique. Ils sont parfaitement à même de faire tourner les logiciels de retouche et d’imagerie les plus répandus, tels que la suite Adobe(Photoshop, illustrator, indesign…), 3DS Max, AutoCad, Blender, mais aussi Dassault ou encore Solidworks.
+
+banniere cao dao
+La particularité de ces logiciels est qu’ils nécessitent une configuration assez musclée en termes de performances du processeur, de quantité de mémoire vive ou bien de carte vidéo dans certains cas(Autocad 3D, V-Ray, 3DS Max). Ainsi, les ordinateurs CAO-DAO pour professionnels que nous proposons intègrent dans leur configuration des processeurs de dernière génération à multicoeurs ainsi que des cartes graphiques NVIDIA ou AMD professionnelles.
+</p>
+
+<p>
+“PC MAO”
+Destinés aux besoins des musiciens, ces ordinateurs MAO, ont été conçus dans le but d’enregistrer, de mixer ou de composer de la musique. Les avantages de ces pc MAO est de posséder un usage silencieux de par l’insonorisation des boitiers, performant et le plus confortable possible. Selon les logiciels utilisés dans la création de votre musique, comme Cubase 8 ou bien Ableton Live, les ressources du processeur et de la mémoire vive vont devenir de plus en plus importantes. De même, les rajouts d’instruments de musique augmentent également ces besoins.
+</p>
+
+<p>
+“PC Gamer pas cher”
+Ces ordinateurs de jeu d’entrée de gamme pensent aux petits budgets et peuvent faire tourner des jeux nécessitant peu de ressources graphiques comme Minecraft, League Of Legend, Counter Strike. Certains jeux, en mettant les graphismes en détails moins élevés, par exemple Call Of Duty, resteront accessibles.
+
+banniere jeux vidéo
+Bien que ces pc gamer ne disposent pas de la plus haute qualité de graphisme, ils donnent la possibilité de jouer avec fluidité, sans ralentissement ni surchauffe de l’ordinateur. Le prix économique de ces ordinateurs Gamers pas chers ne signifie pas que l’on tombe dans le Low-Cost : chaque composant a été rigoureusement sélectionné par notre équipe afin de compiler performance et qualité irréprochable à tout petit prix.
+</p>
+
+<p>
+“PC Gamer avancé”
+Ces ordinateurs de jeu sont assemblés spécifiquement pour le Gaming et seront parfaits pour les joueurs expérimentés recherchant un PC gamer avec des capacités et des composants indispensables pour faire fonctionner les derniers jeux vidéo assez gourmands en graphisme(FPS et résolution Full HD en High Ultra) tels que Battlefield 4, The witcher 3 ou encore GTA V. Leurs composants haut de gamme rendent les graphismes détaillés et riches afin de profiter des décors sans pour autant troubler la fluidité de jeu. De plus, habitués à répondre à des exigences de puissance, ces PC de jeu permettent une utilisation régulière dans les autres domaines comme le graphisme ou la vidéo. Ces PC de jeu représentent le juste équilibre pour du Gaming pur et dur.
+</p>
+
+<p>
+“PC gamer extrême”
+Ces ordinateurs sont conçus spécialement pour les joueurs expérimentés les plus exigeants, et sont parfaits pour faire tourner tous les derniers jeux vidéo, et ce, dans les meilleures conditions. Ces PC Gamer Hardcore offrent les plus puissantes performances disponibles actuellement sur le marché. Et ce n’est pas tout : l’esthétisme soigné et les multiples fonctionnalités (tri-écran, 3D, hautes résolutions, graphismes ultra...) ne pourront que vous ravir. Ces configurations très musclées ne faiblissent devant aucun jeu ni aucune résolution (2560x1440P Ultra (GTX 1070/1080) 3860x2160 (High GTX1070/ Ultra GTX1080)).
+
+Ces performances hors-normes sont assurées par des composants de la dernière génération technologique : que ce soit les processeurs, cartes graphiques et cartes mères, tous les composants sont choisis pour une fluidité de jeu inégalable.
+</p>
+</div>
+		</section>
+
+		
+
+		<section class="ri-footer py-5 text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm mb-4">
+						<h6 class="fontfoothead fs-5">Les Points relais</h6>
+
+						<nav class="nav flex-column">
+							<a class="nav-link py-1 fontfoot fs-6" href="#Adjan">Ravmel Abidjan Treichville</a>
+							<a class="nav-link py-1 fontfoot fs-6" href="#Yakro">Ravmel Yamoussoukro</a>
+							<a class="nav-link py-1 fontfoot fs-6" href="#Korogho">Ravmel Korogho</a>
+							<a class="nav-link py-1 fontfoot fs-6" href="#Bassam">Ravmel Bassam</a>
+						</nav>
+
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm mb-4">
+						<h6 class="fontfoothead fs-5">Nos Partenaires</h6>
+						<nav class="nav flex-column">
+							<a class="nav-link py-1 fontfoot fs-6" href="#Africa Microsoft">Africa Digit Corporation</a>
+							<a class="nav-link py-1 fontfoot fs-6" href="#Hiperdist">NAMS Abidjan</a>
+							<a class="nav-link py-1 fontfoot fs-6" href="#Emploi Jeune">C.A.M.A</a>
+							<a class="nav-link py-1 fontfoot fs-6" href="#FDFP">All In One</a>
+						</nav>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm mb-4">
+						<h6 class="fontfoothead fs-5">Nous suivre sur</h6>
+						<nav class="nav flex-column">
+							<a class="nav-link py-1 fontfoot fs-6" href="#WhatsApp">WhatsApp &nbsp;<i class="fab fa-whatsapp"></i></a>
+							<a class="nav-link py-1 fontfoot fs-6" href="#facebook">facebook &nbsp;<i class="fab fa-facebook"></i></a>
+							<a class="nav-link py-1 fontfoot fs-6" href="#Instagram">Youtube &nbsp;<i class="fab fa-youtube"></i></a>
+							<a class="nav-link py-1 fontfoot fs-6" href="#twitter">twitter &nbsp;<i class="fab fa-twitter"></i></a>
+						</nav>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-sm mb-4">
+						<h6 class="fontfoothead fs-5">Nos Offres</h6>
+						<nav class="nav flex-column">
+							<a class="nav-link py-1 fontfoot fs-6" href="#le_catalogue.html">Ordinateurs Portables réconditionés</a>
+							<a class="nav-link py-1 fontfoot fs-6" href="#le_catalogue.html">Ordinateur bureau réconditioné</a>
+							<a class="nav-link py-1 fontfoot fs-6" href="#le_catalogue.html">Consommables</a>
+							<a class="nav-link py-1 fontfoot fs-6" href="#le_catalogue.html">Autres</a>
+						</nav>
+					</div>
+					<div class="col-12 text-center py-4 fontcopy">
+						&copy; Ravmel Informatique 2022 Copyright
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
