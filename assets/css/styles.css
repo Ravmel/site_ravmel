@@ -52,6 +52,15 @@ body {
 	border: none;
 }
 
+.btn{
+	/*background-color: grey;*/
+	/*border: 1px solid blue;*/
+}
+
+.btn:hover{
+	/*color:#ff7300;**/
+}
+
 .btn-orangered {
 	/** début bouton orangered dans catalogue **/
 	background: #F5432D;
@@ -60,14 +69,12 @@ body {
 }
 
 .btn-orangered:hover {
-	background: #ef4102;
+	background: #f66a37;
 	color: #000;
-	/*font-size: 13px;*/
-	/*font-weight: bold;*/
+	font-size: 13px;
+	font-weight: bold;
 }
-
 /** fin bouton orangered dans catalogue **/
-
 
 .btn-bleu {
 	/** début bouton bleu consommables et autres dans catalogue **/
@@ -84,7 +91,6 @@ body {
 }
 
 /*** fin bouton bleu consommables et autres dans catalogue ***/
-
 
 .btn-turkoi {
 	/******* début bouton turkoi dans catalogue ****/
@@ -191,7 +197,6 @@ body {
 	/**  Taille de la police dans le banner de la premiere section**/
 	font-weight: 400;
 	color: #fff;
-
 	/** border: solid 1px #ff2300; */
 }
 
@@ -275,10 +280,15 @@ body {
 	background: red;
 	border: solid 2px red;
 }
-
 /************** FIN B ***********/
 
 /************** C ***********/
+.card {
+	border: transparent;
+	background: transparent;
+	/*border: 1px solid red;*/
+}
+
 .carousel-caption,
 h5,
 p {
@@ -322,11 +332,6 @@ p {
 	background: #00a4d8;
 	/*font-weight: bold;*/
 	/*color: #000;*/
-}
-
-.card {
-	border: transparent;
-	background: transparent;
 }
 
 .cardo-body {
@@ -395,16 +400,17 @@ p {
 .card-img-top_orange {
 	border-width: 3px;
 	border-style: solid;
-	border-image: linear-gradient(to bottom, #ff4500, rgba(0, 0, 0, 0)) 0 100%;
+	border-image: linear-gradient(to bottom, #ff4500, #00000000) 0 100%;
+	/*border: 5px solid burlywood;*/
 }
 
-
 .cardo-body_orange {
-	background: black;
-	border-radius: 0 0 0px 0px;
+	/*background: #000000;*/
+	/*border-radius: 0px;*/
 	border-width: 3px;
 	border-style: solid;
 	border-image: linear-gradient(to top, #ff4500, #0000) 0 100%;
+	/*border: 1px solid red;*/
 }
 
 /*****  fin orange  *****/
@@ -668,7 +674,8 @@ a:hover {
 
 .navbar-nav {
 	/*** La Nav qt on passe à un écran plus petit ***/
-	background-color: #000000e0;
+	/*background-color: #000000e0;*/
+	/*border: 1px solid red;*/
 }
 
 .nav-link_one {
@@ -757,8 +764,9 @@ a:hover {
 .ri-navbar {
 	background-color: #000000e0;
 	font-family: 'Arial', 'Helvetica', 'sans-serif';
-	box-shadow: 1px 1px 3px #ff220046;
+	box-shadow: 1px 1px 3px #ffffff46;
 	z-index: 99;
+	/*border: 1px solid red;*/
 }
 
 .ri-navbar .nav-link {
